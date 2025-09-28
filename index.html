@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Te Quiero Zamy JsJs </title>
+  <style>
+    :root{ --accent:#ff69b4; --gold:#ffd700; }
+    html,body{ height:100%; margin:0; background: radial-gradient(ellipse at center, #071029 0%, #000000 60%); overflow:hidden; font-family:Arial, sans-serif; }
+    #ui {
+      position: fixed; left: 12px; top: 12px; z-index: 20; display:flex; gap:8px;
+      align-items:center;
+    }
+    /* El contenedor #ui ahora está vacío, solo queda la ubicación. */
+    canvas { display:block; } /* three.js canvas */
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+</head>
+<body>
+  <div id="ui">
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
